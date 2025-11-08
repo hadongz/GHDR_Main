@@ -20009,10 +20009,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aed67eac-c3d9-430b-9675-a1d5674d6f4a")
 		(property "Reference" "U205"
-			(at 58.865 60.96 0)
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20020,7 +20019,7 @@
 			)
 		)
 		(property "Value" "ICM-42670-P"
-			(at 58.865 63.5 0)
+			(at 63.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
