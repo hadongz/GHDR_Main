@@ -7568,7 +7568,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:XVFEELNANF-8MHZ"
+		(symbol "easyeda2kicad:X32258MOB4SI"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7580,7 +7580,7 @@
 					)
 				)
 			)
-			(property "Value" "XVFEELNANF-8MHZ"
+			(property "Value" "X32258MOB4SI"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -7588,7 +7588,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:CRYSTAL-SMD_4P-L5.0-W3.2-BL-1"
+			(property "Footprint" "easyeda2kicad:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -7615,7 +7615,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C5160132"
+			(property "LCSC Part" "C2682775"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -7624,7 +7624,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "XVFEELNANF-8MHZ_0_1"
+			(symbol "X32258MOB4SI_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -9610,7 +9610,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 127) (xy 388.62 127)
+			(xy 389.89 127) (xy 393.7 127)
 		)
 		(stroke
 			(width 0)
@@ -9730,7 +9730,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 127) (xy 377.19 127)
+			(xy 378.46 127) (xy 382.27 127)
 		)
 		(stroke
 			(width 0)
@@ -11376,7 +11376,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 388.62 127 0)
+		(at 393.7 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11386,7 +11386,7 @@
 		)
 		(uuid "2cb1ddb0-7fb2-4382-90bd-51f49945e043")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 394.0179 127 0)
+			(at 399.0979 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11959,28 +11959,6 @@
 		(uuid "4f64a7ac-88ad-4979-b2ce-25da08362125")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.7887 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 368.3 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "4fd3f5ca-7fdc-4e99-a1fc-5862976447b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.4735 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13504,6 +13482,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_NRST"
+		(shape input)
+		(at 373.38 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "a2307bc7-e7c3-4a34-9ab9-efd214fb0e86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.7439 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -15385,104 +15385,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:XVFEELNANF-8MHZ")
-		(at 46.99 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06ca906f-f9fe-419a-9de5-dbc9054a0eb4")
-		(property "Reference" "X200"
-			(at 46.99 22.86 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "XVFEELNANF-8MHZ"
-			(at 46.99 25.4 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CRYSTAL-SMD_4P-L5.0-W3.2-BL-1"
-			(at 46.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5160132"
-			(at 46.99 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manfufacture ID" "XVFEELNANF-8MHZ"
-			(at 46.99 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9bd5b6be-00da-4518-ba4c-fbb4358131ff")
-		)
-		(pin "1"
-			(uuid "8dc281a8-33fe-4bf3-81e4-6e779bfc9ee7")
-		)
-		(pin "3"
-			(uuid "1c86ecb3-053d-4aa9-bc16-e584f24a1b07")
-		)
-		(pin "2"
-			(uuid "d0a3f6a2-de5c-42a0-9fa9-18971c4562a6")
-		)
-		(instances
-			(project "GHDR"
-				(path "/2509eac7-702d-471d-ac76-1a26bd9d0364/2199fe3b-d1e6-4213-a727-a65ad5091fa9"
-					(reference "X?")
-					(unit 1)
-				)
-			)
-			(project "GHDR_Main"
-				(path "/6d288c5b-71e1-494f-b1b1-4e9da334c008"
-					(reference "X200")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 223.52 40.64 0)
 		(mirror x)
@@ -15689,7 +15591,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 103.378 39.878 0)
 			(effects
 				(font
@@ -15856,7 +15758,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 370.84 127 90)
+		(at 375.92 127 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15865,7 +15767,7 @@
 		(dnp no)
 		(uuid "243e07ec-a665-40d4-bd16-9598e7c9277a")
 		(property "Reference" "R212"
-			(at 370.84 121.92 90)
+			(at 375.92 121.92 90)
 			(effects
 				(font
 					(size 1 1)
@@ -15873,7 +15775,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 370.84 124.206 90)
+			(at 375.92 124.206 90)
 			(effects
 				(font
 					(size 1 1)
@@ -15881,7 +15783,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 370.84 127 0)
+			(at 375.92 127 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15890,7 +15792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 370.84 127 0)
+			(at 375.92 127 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15899,7 +15801,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 370.84 127 0)
+			(at 375.92 127 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15908,7 +15810,7 @@
 			)
 		)
 		(property "Manfufacture ID" "0603WAF2200T5E"
-			(at 370.84 127 90)
+			(at 375.92 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15917,7 +15819,7 @@
 			)
 		)
 		(property "LCSC Part" "C22962"
-			(at 370.84 127 90)
+			(at 375.92 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17550,7 +17452,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "18pF"
 			(at 32.766 39.37 0)
 			(effects
 				(font
@@ -19546,6 +19448,89 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:X32258MOB4SI")
+		(at 46.99 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96b5298c-dd79-4f18-a47e-fd008fc000d0")
+		(property "Reference" "X201"
+			(at 46.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "X32258MOB4SI"
+			(at 46.99 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
+			(at 46.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2682775"
+			(at 46.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e6d882b-c1dd-415d-8df3-b03107e5f8c0")
+		)
+		(pin "3"
+			(uuid "a5a1f978-5e6f-4bb7-bcf9-157401e9ceed")
+		)
+		(pin "1"
+			(uuid "2259f3de-6638-4f77-b558-9eb559f2e5b3")
+		)
+		(pin "4"
+			(uuid "69679d80-4e1f-46f4-8ed3-27e88cca3eb2")
+		)
+		(instances
+			(project ""
+				(path "/6d288c5b-71e1-494f-b1b1-4e9da334c008"
+					(reference "X201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 173.99 180.34 0)
 		(unit 1)
@@ -21059,7 +21044,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "18pF"
 			(at 63.754 28.448 0)
 			(effects
 				(font
@@ -22439,7 +22424,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 381 127 180)
+		(at 386.08 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22447,7 +22432,7 @@
 		(dnp no)
 		(uuid "ef1a502b-725d-4241-8e17-63ada16271e6")
 		(property "Reference" "D203"
-			(at 381 120.904 0)
+			(at 386.08 120.904 0)
 			(effects
 				(font
 					(size 1 1)
@@ -22455,7 +22440,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 381 123.444 0)
+			(at 386.08 123.444 0)
 			(effects
 				(font
 					(size 1 1)
@@ -22463,7 +22448,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 381 127 0)
+			(at 386.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22472,7 +22457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 127 0)
+			(at 386.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22481,7 +22466,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 381 127 0)
+			(at 386.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22490,7 +22475,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 381 127 0)
+			(at 386.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22499,7 +22484,7 @@
 			)
 		)
 		(property "LCSC Part" "C84263"
-			(at 381 127 0)
+			(at 386.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22508,7 +22493,7 @@
 			)
 		)
 		(property "Manfufacture ID" "NCD0603R1"
-			(at 381 127 0)
+			(at 386.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
